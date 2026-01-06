@@ -176,7 +176,7 @@ if (c8 > 1700) {
 
 
 targetPsi = (c6 - 1000) / 10.0;
-//Serial.printf("Raw: %d, Target PSI: %.1f, Current PSI: %.1f, empty=%d\n", raw, targetPsi, psi, millis() - dumpStart);
+Serial.printf("Raw: %d, Target PSI: %.1f, Current PSI: %.1f, empty=%d\n", raw, targetPsi, psi, millis() - dumpStart);
 
 // Valve logic
 if (c7 > 1700) {
